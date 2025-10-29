@@ -1,0 +1,63 @@
+﻿<Window x:Class="PalerWpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PalerWpfApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="20" Background="#FFECC5B2">
+
+        <TextBlock
+            FontSize="24"
+            FontWeight="Bold"
+            Foreground="#5B3A29"
+            HorizontalAlignment="Center"
+            Margin="0,30,0,10"
+            TextAlignment="Center"
+            Text="Welcome to Paler Fragrance Perfume" />
+
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Width="300">
+
+            <TextBlock Text="Our fragrances contain 25% to 30% concentration of premium quality fragrance oil imported from France."
+                       TextWrapping="Wrap"
+                       Margin="0,0,0,20"
+                       Foreground="#7B5A47"
+                       TextAlignment="Center"/>
+
+            <ComboBox x:Name="PerfumeSelector"
+                      Width="200"
+                      Height="30"
+                      Background="White"
+                      Foreground="#5B3A29"
+                      FontWeight="SemiBold"
+                      Margin="0,0,0,15"
+                      SelectionChanged="PerfumeSelector_SelectionChanged">
+                <ComboBoxItem Content="Cloud" />
+                <ComboBoxItem Content="Vanilla" />
+                <ComboBoxItem Content="Billesh" />
+            </ComboBox>
+
+            <TextBlock x:Name="PriceText"
+                       Text="Price: ₱0.00"
+                       FontSize="16"
+                       FontWeight="Bold"
+                       Foreground="#5B3A29"
+                       TextAlignment="Center"
+                       Margin="0,0,0,25"/>
+
+            <Button Content="Buy Now"
+                    Width="100" Height="30"
+                    Background="#C19A6B"
+                    Foreground="White"
+                    FontWeight="Bold"
+                    BorderThickness="0"
+                    Cursor="Hand"
+                    Click="BuyNow_Click"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
+

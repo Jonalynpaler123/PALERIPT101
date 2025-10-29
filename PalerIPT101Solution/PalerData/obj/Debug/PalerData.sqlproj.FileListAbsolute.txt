@@ -1,0 +1,6 @@
+D:\PalerIPT101\PalerIPT101Solution\PalerData\bin\Debug\PalerData.dacpac
+D:\PalerIPT101\PalerIPT101Solution\PalerData\bin\Debug\PalerData.dll
+D:\PalerIPT101\PalerIPT101Solution\PalerData\bin\Debug\PalerData.pdb
+D:\PalerIPT101\PalerIPT101Solution\PalerData\obj\Debug\PalerData.sqlproj.AssemblyReference.cache
+D:\PalerIPT101\PalerIPT101Solution\PalerData\obj\Debug\PalerData.dll
+D:\PalerIPT101\PalerIPT101Solution\PalerData\obj\Debug\PalerData.pdb
